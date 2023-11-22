@@ -10,6 +10,7 @@ pour nombre flottantes : float , double
 pour booléen : Boolean exemple true /false
 pour charactère unique: char (un seul caractere ou caractere ASCII)
 
+--------
 exemple : 
 prix vehicule en int car 35,5 euro sera plus 35500 et ça peut aller à des milliars
 nombre de place vehicule: plus long nombre 8 donc on utilise un byte
@@ -17,7 +18,7 @@ puissance 350 à 400 kw si bugatti max donc un short suffirait
 pour état :  Neuf ou pane ou Occasion: on peut utiliser variable char  N ou P ou O
 consommation 15.5 7.1 ...on mettre un float
 endommage ou pas: on mettra un booléen ; si oui il apparait si non il apparait pas
-
+--------
 
 
 #### different type d'objets
@@ -41,6 +42,13 @@ décrire complètement ce que contient la variable
 ne pas utiliser d'abréviation lorsque c'est possible 
 ne pas réutiliser la variable à d'autres fin
 ne pas utiliser de $ ou de 8 ou de chiffre dans les noms de variable 
+
+
+##### conversion type données primitifs
+conversion explicité 
+typeDonnéeSouhaite nomNouvelleVar = (typeDonnéeSouhaite) val ou autreNomVar
+il y a elargissement plus mieux que le retricisement qui peut causer perte de donné
+
 
 
 
