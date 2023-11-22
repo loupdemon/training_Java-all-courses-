@@ -57,7 +57,7 @@ référence = pointe vers un emplacement mémoire
 
 Quand on crée un objet, on peut rajouter de la valeur à tout ces atribut, on peut creer un nombre illimité dans une classe
 
-######
+###### objets
 commment creer un objet
 NomClass NomVariable = valeur Ou new NomClass();
 ---------
@@ -82,6 +82,49 @@ isEmpty() pour voir si c'est vide
 String typeStylot = "StylotCouelurBleu";
 isBlank() = 
 
+##### Operateur
+###### Arithmetique +,%,/,-%,-,*,=,+= ( x+y),-= (x-y),*= (x*y)...
+###### logique ==, ||, !=
+###### relationnel : <,>,<=,>=;!=,==
+######unaire : ++, -+, --deconcatener,++ cancatener
+######logique && (and) , || (or)
+
+
+#### Boucles : repetition d'une instruction 
+-------------
+while (condition){}
+--------------
+int i= 1;
+while(i<1000){
+System.out.println("hello");
+i++;}
+
+--------------------
+do{...}while(condition);
+-------------------
+int i=1;
+do{System.out.println("hello");i++;]while(i<100);
+
+while fait dab verification de condition avant d'entamer le code
+do while execute dab le code sans verification puis pourboucler il faut que la condition soit correcte pour repasser a nouveau 
+-------------------
+for (initialisation; condition; instruction mise a jour){}
+-------------------
+continue permet de sauter des étapes dans les boucles (ligne qui suit
+
+for(int i=1;i<=100;i++){
+   if(i==10){
+          continue;}
+          System.out.println("ne pas m'affiche au 10")
+         }
+  }
+          
+le continue va sauter l'exécussion quand condition i==10 est validée
+--------------------------
+beak: sert a arreter la boucle, sort completement de boucle
+for(int i =1; i>=100;i++){
+	if(i==10){break;}
+	System.out.println("je ne parle pas");}
 
 
 
