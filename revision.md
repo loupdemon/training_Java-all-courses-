@@ -124,11 +124,32 @@ le continue va sauter l'exécussion quand condition i==10 est validée
 beak: sert a arreter la boucle, sort completement de boucle
 for(int i =1; i>=100;i++){
 	if(i==10){break;}
-	System.out.println("je ne parle pas");}
+	System.out.println("je ne parle pas");
+--------------------------------------------------------
+#### Flux de controle
+il permet au program prendre des decision, pour savoir quel code exécuter
 
 
+exemple: if(noteFilm>5 &&(categoryFilm.equals("action") || categoryFilm.equals('comedie")){
+		Systeme.out.println("je le regarderai ce soir");
+	}
+	
+--------------------------------------------
+if(condition){}elseif(condition)
+else{}
 
 
+--------------------------
+Switch(valeur){
+	case val1:
+		....
+		break;
+	case val2:
+		...
+		break;
+	default:
+		 ....
+	 }
 
 
 
