@@ -1,3 +1,4 @@
+
 ## Les variables 
 on stoque mémoire ou valeur, ...
 typeDonnée nomVariable
@@ -23,7 +24,7 @@ endommage ou pas: on mettra un booléen ; si oui il apparait si non il apparait 
 
 #### different type d'objets
 un objet peut avoir plusierus état et type de comportement ce que les primitifs n'ont pas 
-nombre entier : pareil que int juste commence par majuscule: Byte, Short, Integer, long
+nombre entier : pareil que int juste commence par majuscule: Byte, Short, Integer, Long
 nombre flottante: Float, Double
 booleén: Boolean
 caractere: Character au de chat dans variable primitif, String (peut stoquer une quantité illimité d etexte ...)
@@ -48,6 +49,42 @@ ne pas utiliser de $ ou de 8 ou de chiffre dans les noms de variable
 conversion explicité 
 typeDonnéeSouhaite nomNouvelleVar = (typeDonnéeSouhaite) val ou autreNomVar
 il y a elargissement plus mieux que le retricisement qui peut causer perte de donné
+
+
+##### Réferences d'objets
+objet = une instance d'une classe (stoqué quelque part dans la mémoire)
+référence = pointe vers un emplacement mémoire
+
+Quand on crée un objet, on peut rajouter de la valeur à tout ces atribut, on peut creer un nombre illimité dans une classe
+
+######
+commment creer un objet
+NomClass NomVariable = valeur Ou new NomClass();
+---------
+exemple stylot bleu et stylo nnoir et stylot rouge
+Stylo qui est notre nom de classe
+variable CouleurStylot
+Stylot CouleurStylotNoire = new Stylot("noir")
+Stylot CouleurStylotBleu = (new Stylot ("bleu")
+----------------
+Ce qui les differencie des variables primitifs
+on utilise println pour afficher
+pour appeler les fonction dans les fonctions StylotCouleurBleu.recharger()
+StylotCouelurNoir.jetter()
+StylotCouleurBleu.getDescription()
+---------------------------
+fonctions pour des chaines caracteres 
+toUpperCase(à passe miniscule au majuscule pour des characteres 
+toLowerCase() pour l(invers 
+equals() = pour comparer deux chaine caractere
+isEmpty() pour voir si c'est vide
+
+String typeStylot = "StylotCouelurBleu";
+isBlank() = 
+
+
+
+
 
 
 
