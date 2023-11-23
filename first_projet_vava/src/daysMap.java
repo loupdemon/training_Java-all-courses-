@@ -17,6 +17,10 @@ public class daysMap {
         System.out.println(jours.get(5)); // affiche Friday
         jours.remove(2);
         System.out.println(jours); //affiche {1=Lundi, 3=Mercredi, 4=Jeudi, 5=Friday, //6=Samedi, 7=Dimanche}
+        System.out.println("--------------");
+        System.out.println("les jours :"+jours.entrySet());
+        System.out.println("clès :"+jours.keySet());
+        System.out.println("les noms de jours :"+jours.values());
     }
 
 }
