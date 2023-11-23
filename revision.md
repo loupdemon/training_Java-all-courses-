@@ -191,6 +191,33 @@ scanner.next pour lire une chaine de caractere
 
 #### programme switchapp à trouver dans le github est un bon exercice pour les boucles et java.util.map
 
+Le LinkedHashMap et le HashMap implémentent tous deux l’interface Map. Cependant, il existe quelques différences entre elles.
+
+LinkedHashMap utilise une liste doublement chaînée en interne. De ce fait, elle conserve l’ordre d’insertion de ses éléments.
+La classe LinkedHashMap nécessite plus de stockage que HashMap. Cela est dû au fait que LinkedHashMap maintient des listes chaînées en interne.
+Les performances de LinkedHashMap sont plus faibles que celles du HashMap.
+
+###### le garbage collector
+lorsque la clé du weakhashmap est définie comme nulle et que l’on effectue un garbage collection, la clé est supprimée. C’est parce que, contrairement aux hashmaps, les clés des weakhashmaps sont de type référence faible. Cela signifie que les entrées d’une weakhashmap sont supprimées par le ramasse-miettes (garbage collector) si la clé de cette entrée n’est plus utilisée. Ceci est utile pour économiser des ressources.
+
+---------------------------------------------------------------
+#### TreeMap
+La classe TreeMap est une Map qui stocke des éléments de manière triée dans un une structure arborescente. Elle implémente l’interface SortedMap sur lequel nous reviendrons plus tard dans le tutoriel.
+
+Les éléments de la collection TreeMap sont triés selon l’ordre naturel de leur clé (s’ils implémentent l’interface Comparable) ou en utilisant une instance de type Comparator fournie au constructeur de la collection.
+exemple donné :
+voici un exemple explicite d'utilisation de TreeMap en Java. Dans cet exemple, nous allons créer une TreeMap pour stocker des noms de personnes associés à leur âge, et nous allons les trier par ordre alphabétique des noms.
+
+
+##### TreeMap Comparator
+Dans l’exemple ci-dessus, les éléments du Treemap sont triés naturellement (par ordre croissant). Cependant, il est possible de personnaliser l’ordre des clés. Pour cela, il faut créer votre propre classe de comparateur basée sur le tri des clés dans un treemap. 
+-------------------------------------------------------------
+
+##### NavigableMap et SubMap de SortedMap j'ai utilisé lastEntry et firstEntry pour recuperer les données de premier chaineau et dernier chaineau 
+-------------------------------------------------------------
+headMap(key, booleanValue) : la méthode headMap() renvoie toutes les entrées d’une NavigableMap associées à toutes les clés précédant la clé spécifiée (qui est passée en argument). La valeur booléenne (booleanValue) est un paramètre facultatif. Sa valeur par défaut est false.
+tailMap(clé, booleanValue) : la méthode tailMap() renvoie toutes les entrées d’une NavigableMap associées à toutes les clés après la clé spécifiée (passée en argument), y compris l’entrée associée à la clé spécifiée. La valeur booléenne (booleanValue) est un paramètre facultatif. Sa valeur par défaut est true. Si false est passé comme booleanValue, la méthode renvoie toutes les entrées associées à ces clés après la clé spécifiée, sans inclure l’entrée associée à la clé spécifiée.
+subMap(k1, bv1, k2, bv2) : la méthode subMap() renvoie toutes les entrées associées aux clés comprises entre k1 et k2, y compris l’entrée associée à k1. Les paramètres bv1 et bv2 sont facultatifs. La valeur par défaut de bv1 est true et la valeur par défaut de bv2 est false. Si false est passé comme bv1, la méthode retourne toutes les entrées associées aux clés entre k1 et k2, sans inclure l’entrée associée à k1. Si true est passé comme bv2, la méthode retourne toutes les entrées associées aux clés entre k1 et k2, y compris l’entrée associée à k1.
 
 
 
