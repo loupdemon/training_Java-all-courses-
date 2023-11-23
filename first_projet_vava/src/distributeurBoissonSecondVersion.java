@@ -6,7 +6,7 @@ public class distributeurBoissonSecondVersion {
         private static Scanner scanner = new Scanner(System.in);
 
         // Prix des boissons
-        private static Map<String, Double> prixDesBoissons = new HashMap<>();
+        private static Map<String, Double> prixDesBoissons = new HashMap<>(); //renvoie à la premier valeur coca et double au prix
 
         static {
             prixDesBoissons.put("coca", 2.5);

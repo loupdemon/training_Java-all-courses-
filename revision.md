@@ -184,6 +184,13 @@ getReduction(2000) là c'est un argument
 ### lecture entrée utilisateur:
 int userInput = scanner.nextInt();  // Utilisez nextInt() pour lire un entier
 string Input = scanner.nextline()//Utilisez nextline()pour lire une ligne
+scanner.next pour lire une chaine de caractere
+
+
+----------------------------------
+
+#### programme switchapp à trouver dans le github est un bon exercice pour les boucles et java.util.map
+
 
 
 
