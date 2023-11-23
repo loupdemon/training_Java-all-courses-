@@ -57,7 +57,7 @@ référence = pointe vers un emplacement mémoire
 
 Quand on crée un objet, on peut rajouter de la valeur à tout ces atribut, on peut creer un nombre illimité dans une classe
 
-######
+###### objets
 commment creer un objet
 NomClass NomVariable = valeur Ou new NomClass();
 ---------
@@ -82,7 +82,108 @@ isEmpty() pour voir si c'est vide
 String typeStylot = "StylotCouelurBleu";
 isBlank() = 
 
+##### Operateur
+###### Arithmetique +,%,/,-%,-,*,=,+= ( x+y),-= (x-y),*= (x*y)...
+###### logique ==, ||, !=
+###### relationnel : <,>,<=,>=;!=,==
+######unaire : ++, -+, --deconcatener,++ cancatener
+######logique && (and) , || (or)
 
+
+#### Boucles : repetition d'une instruction 
+-------------
+while (condition){}
+--------------
+int i= 1;
+while(i<1000){
+System.out.println("hello");
+i++;}
+
+--------------------
+do{...}while(condition);
+-------------------
+int i=1;
+do{System.out.println("hello");i++;]while(i<100);
+
+while fait dab verification de condition avant d'entamer le code
+do while execute dab le code sans verification puis pourboucler il faut que la condition soit correcte pour repasser a nouveau 
+-------------------
+for (initialisation; condition; instruction mise a jour){}
+-------------------
+continue permet de sauter des étapes dans les boucles (ligne qui suit
+
+for(int i=1;i<=100;i++){
+   if(i==10){
+          continue;}
+          System.out.println("ne pas m'affiche au 10")
+         }
+  }
+          
+le continue va sauter l'exécussion quand condition i==10 est validée
+--------------------------
+beak: sert a arreter la boucle, sort completement de boucle
+for(int i =1; i>=100;i++){
+	if(i==10){break;}
+	System.out.println("je ne parle pas");
+--------------------------------------------------------
+#### Flux de controle
+il permet au program prendre des decision, pour savoir quel code exécuter
+
+
+exemple: if(noteFilm>5 &&(categoryFilm.equals("action") || categoryFilm.equals('comedie")){
+		Systeme.out.println("je le regarderai ce soir");
+	}
+	
+--------------------------------------------
+if(condition){}elseif(condition)
+else{}
+
+
+--------------------------
+Switch(valeur){
+	case val1:
+		....
+		break;
+	case val2:
+		...
+		break;
+	default:
+		 ....
+	 }
+-------------------------
+### Méthode
+la methode et la fonction: un bloc de code qui ne s'execute que lorsqu'ielles sont appelées.
+
+comment definir une méthode: 
+typeDeRetour doit être meme chose comme dans c void, int, char,...
+typeDeRetour nomFonction(){
+	...
+	return typeDeRetour;
+}
+
+
+void direBonjour(){
+	system.our.println("Bonjour");
+}
+
+public static void main(String[] args){}
+modificateuracces static(montre qu'elle appartient à la class) void(renvoi pas valeur) nomFonction(parametre)
+
+public double getReductionDixPourCetPrixAchat(int prix){return prix *0.9;
+}
+
+appel de fonction: nomdefonction(valeur parametre)
+-------------------------
+
+difference entre argument et parament:
+qand un paramtre est passer à une méthode on l'appele argument :
+exemple public double getReduction(int prix) là c'est un parametre
+getReduction(2000) là c'est un argument
+---------------
+
+### lecture entrée utilisateur:
+int userInput = scanner.nextInt();  // Utilisez nextInt() pour lire un entier
+string Input = scanner.nextline()//Utilisez nextline()pour lire une ligne
 
 
 
