@@ -38,6 +38,10 @@ public class distributeurBoissonSecondVersion {
             for (Map.Entry<String, Double> entry : prixDesBoissons.entrySet()) {
                 System.out.println(entry.getKey() + " - " + entry.getValue() + "€");
             }
+            System.out.println("-------------------------------------------");
+            System.out.println("boissons: " +prixDesBoissons.keySet()); // façon d'affiche la premiere colonne autrement en liste boissons: [coca, pepsi, sprite, fanta]
+            System.out.println("price: " +prixDesBoissons.values());//affiche les prix , seconde colonne price: [2.5, 3.0, 2.7, 2.8]
+            System.out.println("données :" +prixDesBoissons.entrySet());//afficher toute la strucutre le tableau de deux dimension données :[coca=2.5, pepsi=3.0, sprite=2.7, fanta=2.8]
         }
 
         static void activerPromotion(String boissonChoisie) {
