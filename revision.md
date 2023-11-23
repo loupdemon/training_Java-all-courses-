@@ -150,6 +150,43 @@ Switch(valeur){
 	default:
 		 ....
 	 }
+-------------------------
+### Méthode
+la methode et la fonction: un bloc de code qui ne s'execute que lorsqu'ielles sont appelées.
+
+comment definir une méthode: 
+typeDeRetour doit être meme chose comme dans c void, int, char,...
+typeDeRetour nomFonction(){
+	...
+	return typeDeRetour;
+}
+
+
+void direBonjour(){
+	system.our.println("Bonjour");
+}
+
+public static void main(String[] args){}
+modificateuracces static(montre qu'elle appartient à la class) void(renvoi pas valeur) nomFonction(parametre)
+
+public double getReductionDixPourCetPrixAchat(int prix){return prix *0.9;
+}
+
+appel de fonction: nomdefonction(valeur parametre)
+-------------------------
+
+difference entre argument et parament:
+qand un paramtre est passer à une méthode on l'appele argument :
+exemple public double getReduction(int prix) là c'est un parametre
+getReduction(2000) là c'est un argument
+---------------
+
+### lecture entrée utilisateur:
+int userInput = scanner.nextInt();  // Utilisez nextInt() pour lire un entier
+string Input = scanner.nextline()//Utilisez nextline()pour lire une ligne
+
+
+
 
 
 
