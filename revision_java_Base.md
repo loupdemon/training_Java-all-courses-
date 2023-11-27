@@ -218,9 +218,58 @@ Dans l’exemple ci-dessus, les éléments du Treemap sont triés naturellement 
 headMap(key, booleanValue) : la méthode headMap() renvoie toutes les entrées d’une NavigableMap associées à toutes les clés précédant la clé spécifiée (qui est passée en argument). La valeur booléenne (booleanValue) est un paramètre facultatif. Sa valeur par défaut est false.
 tailMap(clé, booleanValue) : la méthode tailMap() renvoie toutes les entrées d’une NavigableMap associées à toutes les clés après la clé spécifiée (passée en argument), y compris l’entrée associée à la clé spécifiée. La valeur booléenne (booleanValue) est un paramètre facultatif. Sa valeur par défaut est true. Si false est passé comme booleanValue, la méthode renvoie toutes les entrées associées à ces clés après la clé spécifiée, sans inclure l’entrée associée à la clé spécifiée.
 subMap(k1, bv1, k2, bv2) : la méthode subMap() renvoie toutes les entrées associées aux clés comprises entre k1 et k2, y compris l’entrée associée à k1. Les paramètres bv1 et bv2 sont facultatifs. La valeur par défaut de bv1 est true et la valeur par défaut de bv2 est false. Si false est passé comme bv1, la méthode retourne toutes les entrées associées aux clés entre k1 et k2, sans inclure l’entrée associée à k1. Si true est passé comme bv2, la méthode retourne toutes les entrées associées aux clés entre k1 et k2, y compris l’entrée associée à k1.
+-------------------------------------------------------------
 
+## Tableau
+int[] nomDuTableau 
+nomdutableau = new int [taille]
 
+exemple definitation
+int[] tab;
+tab = new int [5]
+donne [0,0,0,0,0]
 
+##### valeurs des tableau par default:
+*primitif
+sans initialisation 
+int,short, long, byte = 0
+float, double =0.0
+boolean  = false
+char = null character = '\u0000'
+*objets:
+pour les objets=
+tout est null, donc on dit objet vide (Integer, String,Character,Double,Float,...)
+
+les null pr charactere dans primitifs et pour les objets, ne sont pas les meme
+[10,2,4,22,5]
+tab[0]=17;
+System.out.println(tab[0]),
+concatener les valeurs dans l'ondex tab
+int tab=++tab[0]
+int tab[]={10,2,4,22,5}
+
+##### lecture tableau : 
+for(int i=0;i<tab.leght;i++){sout(tab[i];}
+
+foreach(int tab : tab){
+sout(tab);}
+
+##### tableau multidimentionnel:
+int [][] tabMultiDimension = new tabMultiDimension [5][6];
+initialisation et affectation
+tabMultiDimension[1][5]=1;
+tab[ligne][colonne]
+int tab[5][6]={
+		{10,2,4,22,5,9},
+		{13,52,224,12,9,8},
+		{30,2,3,22,5,5},
+		{7,1,3,1,3,2},
+		{5,2,4,5,5,1}}
+		
+		
+		
+		
+		
 
 
 
