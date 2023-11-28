@@ -76,5 +76,31 @@ public class Main {
         System.out.println(Utils.minObj("kx", "ko"));
 
         System.out.println(Utils.minObj(bankAccount1, bankAccount2));
+
+        Utils.printKeyValue(1, "ok");
+
+        Utils.printKeyValueObject(1, "ok");
+
+
+        BankAccount b1 =new BankAccount(100);
+        //on peut instancier Saving Account, car elle hérite de BankAccount
+        BankAccount b2 =new SavingAccount( 5);
+        Utils.printBankAccount(b1);
+        Utils.printBankAccount(new SavingAccount(50));
+        Utils.printBankAccounts(new GenericList<BankAccount>());
+
+        //par contre meme si SavingAccount hérite de BankAccount, on ne peut pas instancier SavingAccount
+        //ca sera faut d'ecrire
+        //Utils.printBankAccounts(new GenericList<SavingAccount>());
+
+        //pour y remedier on peut utiliser les wildcard
+        Utils.printBankAccountsWildCard(new GenericList<BankAccount>());
+        Utils.printBankAccountsWildCard(new GenericList<SavingAccount>());
+
+        //pour restreind lower bounded wildcard
+        Utils.printBankAccountsWildCardLowerBounded(new GenericList<BankAccount>());
+        //on ne peut du coup rajouter SavingAccount car elle hérite de BankAccount
+        //Utils.printBankAccountsWildCardLowerBounded(new GenericList<SavingAccount>()); //error
+
     }
 }
