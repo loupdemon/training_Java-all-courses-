@@ -1,3 +1,5 @@
+import javax.swing.plaf.basic.BasicGraphicsUtils;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -67,5 +69,12 @@ public class Main {
             System.out.println("bankAccount1 > bankAccount2");
         }
 
+        System.out.println(Utils.min(1, 2));
+
+        System.out.println(Utils.minObj(5.2, 6.3));
+
+        System.out.println(Utils.minObj("kx", "ko"));
+
+        System.out.println(Utils.minObj(bankAccount1, bankAccount2));
     }
 }

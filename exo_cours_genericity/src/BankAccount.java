@@ -31,6 +31,29 @@ public class BankAccount implements Comparable <BankAccount> {
 //            return -1;
 //
 //        return 1;
+
+
+    }
+
+    @Override
+    //pour afficher le contenu de l'objet
+    //on peut utiliser toString() pour afficher le contenu de l'objet
+    //on peut utiliser equals() pour comparer le contenu de l'objet
+    //on peut utiliser hashCode() pour comparer le contenu de l'objet
+    //on peut utiliser compareTo() pour comparer le contenu de l'objet
+    //on peut utiliser clone() pour cloner le contenu de l'objet
+    //on peut utiliser finalize() pour finaliser le contenu de l'objet
+    //on peut utiliser getClass() pour obtenir la classe de l'objet
+    //on peut utiliser notify() pour notifier le contenu de l'objet
+    //on peut utiliser notifyAll() pour notifier le contenu de l'objet
+    //on peut utiliser wait() pour attendre le contenu de l'objet
+    //on peut utiliser wait(long) pour attendre le contenu de l'objet
+    //on peut utiliser wait(long, int) pour attendre le contenu de l'objet ...
+    public String toString() {
+        return "BankAccount{" +
+                "id=" + id +
+                ", balance=" + balance +
+                '}';
     }
 }
 
