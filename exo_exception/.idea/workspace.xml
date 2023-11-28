@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f8f532f-5b43-49df-95ae-f91091c9c0dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/first_projet_vava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/BankAccountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/InvalidAmountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/MyBankApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/MyFirstAPP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/SwitchApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/daysMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/distributeurBoissonSecondVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/expceptionJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/filelecture/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/filelecture/fileecrire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/filelecture/tryCatchFinaly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/mapUtilisation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/operateurApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/referenceObjetsApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/testEnummap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/testNavigablemapEtSortedmap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/testTreeMapAge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/testTreemap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_projet_vava/src/testWeakhashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../revision_java_Advanced.md" beforeDir="false" afterPath="$PROJECT_DIR$/../revision_java_Advanced.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YlCXOJoRfiyl3iR7z75xcIo7Mp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/aghiles/IdeaProjects/exo_exception/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="exo_exception" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f8f532f-5b43-49df-95ae-f91091c9c0dc" name="Changes" comment="" />
+      <created>1701090821425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701090821425</updated>
+      <workItem from="1701090822445" duration="518000" />
+      <workItem from="1701091355096" duration="1647000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

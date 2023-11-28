@@ -16,10 +16,6 @@ public class Main {
             System.out.println("i = " + i);
         }
 
-        try {
-            MyBankApplication.start();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        MyBankApplication.start();
     }
 }

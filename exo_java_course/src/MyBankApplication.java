@@ -10,12 +10,13 @@ public class MyBankApplication {
 //        }
 //    }
     public static void start(){
-        BankAccount bankAccount = new BankAcoount();
+        BankAccount bankAccount = new BankAccount();
         try{
             bankAccount.deposit(-90);
         }
-        catch(InvalidAmountException e){
-            e.printStackTrace();
+        catch(BankAccountException e){
+            //e.printStackTrace();
+            System.out.println(e.getCause().getMessage());
 
         }
     }
