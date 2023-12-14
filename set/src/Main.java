@@ -33,6 +33,10 @@ public class Main {
         for (String string : set) {
             System.out.println(string);
         }
+        //coucou
+        //Hello
+        //samuel
+        //World
 
         //suppression d'un element
         System.out.println("remove");
